@@ -22,14 +22,16 @@ function App() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
-
+                <Nav.Link href="#cake">Cake</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>
+                <Nav.Link href="#content">Content</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
 
       </header>
-    <div className='Container px-5 my-4'>
+      <div className='Container px-5 my-4'>
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -53,7 +55,8 @@ function App() {
         </div>
 
       </div>
-     <main className='Container px-5 my-5'>
+
+      <main className='Container px-5 my-5'>
          <h6 id='home'></h6>
         <h1 className='text-center my-4'>Welcome to our Cake Bakery Shope!</h1>
         <div className='Container' >
@@ -239,7 +242,8 @@ function App() {
         <div className='container text-center my-5 px-5'>
         <h6 id='content'></h6>
         <h1 className=' my-4'> Content Us</h1>
-             <p> Phone No:   +252614412610  <br></br>
+
+          <p> Phone No:   +252614412610  <br></br>
               Email:      Cakeb1@gmail.com<br></br>
               Adress:      KM4 Street, Banaadir, Somalia<br></br>
               WhatsApp:      +252616082853<br></br>
@@ -255,9 +259,7 @@ function App() {
         </Row>
       </Container>
       </footer>
-
-        </div>
-
+    </div>
   );
 }
 
