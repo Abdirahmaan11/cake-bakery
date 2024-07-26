@@ -9,7 +9,7 @@ const Login = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === 'Admin' && password === '123') {
+    if (username === 'Maanka' && password === '123') {
       onLogin();
     } else {
       setError('Invalid username or password');
